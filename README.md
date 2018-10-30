@@ -1,4 +1,4 @@
-![Banner](.static/banner.jpg)
+[![Banner](.static/banner.jpg)](#)
 
 Docker is a containerization system that keeps your application’s running
 environment safe, simple, and consistent on all platforms, making development
