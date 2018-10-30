@@ -14,6 +14,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Workshop Tasks
 
+To get started, clone this repository by running the following commands in a
+directory of your choice:
+
+```
+git clone https://github.com/ubclaunchpad/workshop-guide-to-docker.git
+cd workshop-guide-to-docker
+```
+
 ### Part 1: Development Configuration
 
 Coming soon!
