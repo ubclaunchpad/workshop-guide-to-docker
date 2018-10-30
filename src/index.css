@@ -9,6 +9,12 @@ body {
 }
 
 code {
+  color: #00C0C0;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  color: #00C0C0;
+  text-decoration-color: #00C0C0;
 }
