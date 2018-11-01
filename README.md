@@ -7,7 +7,7 @@ presentation, where we walk through how to set up Docker configurations for
 development and distribution.
 
 - Facebook event: https://www.facebook.com/events/276016843042664/ 
-- Slideshow: https://slides.ubclaunchpad.com/workshops/guide-to-docker
+- Slideshow: https://slides.ubclaunchpad.com/workshops/guide-to-docker.pdf
 - Presenters: [@bfbachmann](https://github.com/bfbachmann), [@bobheadxi](https://github.com/bobheadxi)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -46,7 +46,7 @@ at the exposed port: http://localhost:8000/
 
 - leverage volume mounting to allow code changes to be reflected instantly in a container
 
-See the [slides](https://slides.ubclaunchpad.com/workshops/guide-to-docker) for more details!
+See the [slides](https://slides.ubclaunchpad.com/workshops/guide-to-docker.pdf) for more details!
 
 ### Part 2: Docker for Distribution
 
@@ -58,4 +58,4 @@ The Docker for Development configuration is not good for distribution. Instead:
 
 - upload to Docker Hub so anyone can download and deploy your image (optional!)
 
-See the [slides](https://slides.ubclaunchpad.com/workshops/guide-to-docker) for more details!
+See the [slides](https://slides.ubclaunchpad.com/workshops/guide-to-docker.pdf) for more details!
