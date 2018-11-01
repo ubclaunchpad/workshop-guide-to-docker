@@ -32,7 +32,7 @@ docker build -f demo.Dockerfile -t my-app .
 Then, create a `container` using the `image` you built and run it:
 
 ```sh
-docker run -it -p 8000:8000 my-app
+docker run --rm -it -p 8000:8000 my-app
 ```
 
 You can then browse the directory contents of your image by visiting the site
