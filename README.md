@@ -40,8 +40,22 @@ at the exposed port: http://localhost:8000/
 
 ### Part 1: Docker for Development
 
-Coming soon!
+- start with an image that has Node.js 
+
+- add an “entrypoint” command to install dependencies and run the website inside a Docker container
+
+- leverage volume mounting to allow code changes to be reflected instantly in a container
+
+See the [slides](https://slides.ubclaunchpad.com/workshops/guide-to-docker) for more details!
 
 ### Part 2: Docker for Distribution
 
-Coming soon!
+The Docker for Development configuration is not good for distribution. Instead:
+
+- build a lightweight image optimized for distribution
+
+- run the container to serve the website
+
+- upload to Docker Hub so anyone can download and deploy your image (optional!)
+
+See the [slides](https://slides.ubclaunchpad.com/workshops/guide-to-docker) for more details!
