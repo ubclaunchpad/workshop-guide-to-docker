@@ -17,15 +17,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To get started, clone this repository by running the following commands in a
 directory of your choice:
 
-```
+```sh
 git clone https://github.com/ubclaunchpad/workshop-guide-to-docker.git
 cd workshop-guide-to-docker
 ```
 
-### Part 1: Development Configuration
+Have a look at the example Dockerfile provided (`demo.Dockerfile`). You can
+build an `image` from it with the following command:
+
+```sh
+docker build -f demo.Dockerfile -t my-app .
+```
+
+Then, create a `container` using the `image` you built and run it:
+
+```sh
+docker run -it -p 8000:8000 my-app
+```
+
+You can then browse the directory contents of your image by visiting the site
+at the exposed port: http://localhost:8000/
+
+### Part 1: Docker for Development
 
 Coming soon!
 
-### Part 2: Distribution Configuration
+### Part 2: Docker for Distribution
 
 Coming soon!
