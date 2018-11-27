@@ -8,6 +8,7 @@ development and distribution.
 
 - Facebook event: https://www.facebook.com/events/276016843042664/ 
 - Slideshow: https://slides.ubclaunchpad.com/workshops/guide-to-docker.pdf
+- Video: https://www.youtube.com/watch?v=Lypf1iYiPFs
 - Presenters: [@bfbachmann](https://github.com/bfbachmann), [@bobheadxi](https://github.com/bobheadxi)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
